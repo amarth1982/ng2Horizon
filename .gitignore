@@ -1,0 +1,5 @@
+dist/app/**/*.js
+dist/app/**/*.map
+dist/node_modules
+dist/npm-debug.*
+rethinkdb_data
