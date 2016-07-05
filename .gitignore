@@ -1,5 +1,7 @@
+.idea
 dist/app/**/*.js
 dist/app/**/*.map
 dist/node_modules
 dist/npm-debug.*
+dist/typings
 rethinkdb_data
