@@ -1,7 +1,7 @@
-import { Component, EventEmitter, Input, Output, OnInit, OnDestroy, NgZone, Inject } from '@angular/core';
-import {CORE_DIRECTIVES} from '@angular/common'
+import { Component, OnInit, OnDestroy, NgZone, Inject } from '@angular/core';
+import { CORE_DIRECTIVES } from '@angular/common';
 
-import {HORIZON} from './horizon'
+import { HORIZON } from './horizon';
 
 @Component({
     selector: 'app',

@@ -1,5 +1,4 @@
-
-import {Observable} from 'rxjs/observable'
+import { Observable } from 'rxjs/observable'
 
 declare interface IStatus{
   type: string
@@ -10,7 +9,7 @@ export declare interface  IHorizon {
 
   disconnect():void
 
-  onReady():Observable<IStatus>
+  onReady(fn: Function):Observable<IStatus>
 
   status():Observable<IStatus>
 
@@ -21,8 +20,8 @@ export declare interface  IHorizon {
 
 declare function Horizon(): IHorizon;
 
-export const HORIZON = 'HORIZON'
+export const HORIZON = 'HORIZON';
 
-export let horizon = Horizon()
+export let horizon = Horizon();
 
-horizon.connect()
+horizon.connect();
